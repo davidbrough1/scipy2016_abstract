@@ -1,10 +1,11 @@
-Title:
+# Title:
 PyMKS - Materials Knowledge Systems in Python
 
-Submission Group Options:
-General Track / Data Science / Mini Symposium: Engineering
+# Submission Group Options:
+General Track / Data Science / Mini Symposium: Engineering ???
 
-Abstract:
+
+# Abstract:
 The custom design of manufacturing processes that result in materials
 with optimized properties is an extremely high dimensional optimization
 problem with the potential to make significant technological and
@@ -17,7 +18,7 @@ object-oriented set of tools and examples, written in Python, that
 provide high-level access to the MKS framework for rapid creation and
 analysis of process-structure-property relationships.
 
-Longer Description:
+# Longer Description:
 
 It takes roughly two decade to bring a new material from the lab into
 production. This time consuming processing has historically be done
