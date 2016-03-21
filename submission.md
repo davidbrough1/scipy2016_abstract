@@ -4,39 +4,42 @@ PyMKS - Materials Knowledge Systems in Python
 # Submission Group Options:
 General Track / Data Science / Mini Symposium: Engineering ???
 
-
 # Abstract:
+
 The custom design of manufacturing processes that result in materials
-with optimized properties is an extremely high dimensional optimization
-problem with the potential to make significant technological and
-economical impacts. The Materials Knowledge Systems (MKS) framework is a
-data science approach which uses techniques from physics, machine
-learning, regression analysis, signal processing, and spatial statistics
-to find manufacturing processes that produce materials with optimization
-properties. The Materials Knowledge Systems in Python (PyMKS) is an
-object-oriented set of tools and examples, written in Python, that
-provide high-level access to the MKS framework for rapid creation and
-analysis of process-structure-property relationships.
+with optimized properties is an extremely high dimensional
+optimization problem with the potential to make significant
+technological and economic impacts. The Materials Knowledge System
+([MKS]) is a data science approach that uses techniques from physics,
+machine learning, regression analysis, signal processing, and spatial
+statistics to find manufacturing processes that produce materials with
+optimized properties. The MKS in Python ([PyMKS]) is a set of tools
+and examples, written in Python, that provides high-level access to
+the MKS for rapid creation and analysis of process-structure-property
+relationships.
 
 # Longer Description:
 
-It takes roughly two decade to bring a new material from the lab into
-production. This time consuming processing has historically be done
-by exploring the materials processing space using expensive experiments.
+It takes roughly two decades to bring a new material from the lab into
+production. This time consuming process has historically required
+expensive experiments to explore the entire parameter space associated
+with the material structure. This structure is dependent on spatial
+arrangements and interactions at multiple different length scales.
 
-The primary issue creating this slow development cycle is the need to
-optimize the structure or spatial arrangement of a material at multiple
-length scales.
+Over the last few decades, mutltiscale physics models have been
+employed to guide experiments and reduce the experimental load. These
+models search parameter space often using expensive and detailed
+methods such as finite elements or molecular dynamics at each length
+scale requiring a massive computational cost, which tends to prohibit
+large parameter space explorations.
 
-Recently developed multiscale physics models have be used to reduce
-the number of experiment by searching the multiscale structure space
-using simulations. Yet the computational costs of these multiscale
-simulations prohibits an extensive exploration of such a large parameter
-space.
+Statistical learning approaches have the potential to augment multiscale
+physics models to vastly improve efficiency when exploring process-structure-property relationships in
+materials. The aim of PyMKS is to provide a high level
+API to statistical learning approaches and enable materials
+scientists to create and manipulate high level pipelines for
+multiscale models making model integration and validation a much more
+straightforward process.
 
-In order to accelerate the development of materials, there is a critical
-need to create accurate and computationally cheap predictive models
-to explore the structure space.
-
-PyMKS provides high level API calls to some of the most promising
-approaches to creating such models.
+[MKS]:
+[PyMKS]: http://pymks.org
