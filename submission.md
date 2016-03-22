@@ -28,18 +28,18 @@ arrangements and interactions at multiple different length scales.
 
 Over the last few decades, mutltiscale physics models have been
 employed to guide experiments and reduce the experimental load. These
-models search parameter space often using expensive and detailed
+models search parameter spaces often using expensive and detailed
 methods such as finite elements or molecular dynamics at each length
 scale requiring a massive computational cost, which tends to prohibit
 large parameter space explorations.
 
 Statistical learning approaches have the potential to augment multiscale
-physics models to vastly improve efficiency when exploring process-structure-property relationships in
-materials. The aim of PyMKS is to provide a high level
-API to statistical learning approaches and enable materials
-scientists to create and manipulate high level pipelines for
-multiscale models making model integration and validation a much more
-straightforward process.
+physics models to vastly improve efficiency when exploring
+process-structure-property relationships in materials. The aim of PyMKS
+is to provide a high level API to statistical learning approaches and
+enable materials scientists to create and manipulate high level
+pipelines for multiscale models making model integration and validation
+a much more straightforward process.
 
-[MKS]:
+[MKS]: http://www.techscience.com/doi/10.3970/cmc.2010.017.103.html
 [PyMKS]: http://pymks.org
