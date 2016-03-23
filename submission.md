@@ -6,13 +6,14 @@ General Track / Data Science / Mini Symposium: Engineering ???
 
 # Abstract:
 
-The custom design of manufacturing processes that result in products made of advanced materials
-with optimized properties is an extremely high dimensional
-optimization problem with the potential to make significant
-technological and economic impacts. The Materials Knowledge System
-([MKS]) is a data science approach that uses techniques from physics,
-machine learning, regression analysis, signal processing, and spatial
-statistics to provide objective decision support in designing and refining  manufacturing processes that produce materials with
+The custom design of manufacturing processes that result in products
+made of advanced materials with optimized properties is an extremely
+high dimensional optimization problem with the potential to make
+significant technological and economic impacts. The Materials Knowledge
+System ([MKS]) is a data science approach that uses techniques from
+physics, machine learning, regression analysis, signal processing, and
+spatial statistics to provide objective decision support in designing
+and refining  manufacturing processes that produce materials with
 optimized properties. The MKS in Python ([PyMKS]) is a set of tools
 and examples, written in Python, that provides high-level access to
 the MKS for rapid creation and analysis of process-structure-property
@@ -23,8 +24,8 @@ relationships.
 It takes roughly two decades to bring a new material from the lab into
 production. This time consuming process has historically required
 expensive experiments to explore the entire parameter space associated
-with the material structure description that includes salient information on spatial
-arrangements and interactions at multiple different length scales.
+with the material structure (which includes information on spatial
+arrangements and interactions at multiple different length scales).
 
 Over the last few decades, mutltiscale physics models have been
 employed to guide experiments and reduce the experimental cost. These
